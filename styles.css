@@ -1,0 +1,52 @@
+/* Grundstil för sidan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#musteri-list {
+    width: 80%;
+    max-width: 800px;
+}
+
+.musteri {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.musteri h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.musteri p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.open-time {
+    color: #2e7d32;
+    font-weight: bold;
+}
